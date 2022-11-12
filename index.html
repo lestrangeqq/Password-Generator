@@ -11,9 +11,9 @@
     <main>
         <h1>Password Generator</h1>
         <div id="your-pass"></div>
-        <input type="range" name="symbols" id="pass-len" value="5" min="5" max="14"><span id='len-num'>5</span>
+        <input type="range" id="pass-len" value="5" min="5" max="14"><span id='len-num'>5</span>
         <br><input type="radio" name="symbols" id="basic-sym" checked>Basic Symbols<br>
-        <input type="radio" id="spec-sym">Special Symbols<br>
+        <input type="radio" name="symbols" id="spec-sym">Special Symbols<br>
         <button id="generate">Generate</button>
     </main>
     <script src="main.js"></script>
