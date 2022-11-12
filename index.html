@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Password Generator</title>
+</head>
+<body>
+    <main>
+        <h1>Password Generator</h1>
+        <div id="your-pass"></div>
+        <input type="range" id="pass-len" value="5" min="5" max="14"><span id='len-num'>5</span>
+        <br><input type="radio" id="basic-sym" checked>Basic Symbols<br>
+        <input type="radio" id="spec-sym">Special Symbols<br>
+        <button id="generate">Generate</button>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
