@@ -1,5 +1,7 @@
 # Password Generator
 
-Simple password generator
+Select the length of password (5-14 symbols), and the strength of the password.
 
-Live: https://lestrangeqq.github.io/Password-Generator/
+Passwords with Special Symbols ("~!@#$%^*+-=:;.?/{}[]\()") much stronger, but it's hard to remember them.
+
+Live: https://lestrangeqq.github.io/#/proj/PassGen/
